@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Insomnia::VERSION
   spec.authors       = ["Mateusz Lenik"]
   spec.email         = ["mlen@mlen.pl"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "Patches your Kernel to make it impossible to sleep."
+  spec.description   = "Patches your Kernel to make it impossible to sleep."
+  spec.homepage      = "https://github.com/mlen/insomnia"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
